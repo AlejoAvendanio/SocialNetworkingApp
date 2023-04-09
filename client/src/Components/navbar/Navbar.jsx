@@ -81,7 +81,7 @@ const NavBar = () => {
             </Link>
           </div>
         
-          {window.location.href === `http://localhost:3000/events` ? (
+          {window.location.href === `https://social-networking-mo5slyom2-alejoavendanio.vercel.app/events` ? (
             <TextField
               placeholder="Search events..."
               id="barrabusquedaEvents"
