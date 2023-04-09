@@ -95,6 +95,9 @@ const LandingPage = () => {
         />
         <img src={logogrande2} id='logoLanding' alt='logo'/>
         <Grid className='form' item component={Paper} elevation={6} square>
+          {
+            console.log(window.location.href)
+          }
         {window.location.href == `https://social-networking-mo5slyom2-alejoavendanio.vercel.app/` ?
         <LandingLogin /> : <LandingRegister/>
         }
