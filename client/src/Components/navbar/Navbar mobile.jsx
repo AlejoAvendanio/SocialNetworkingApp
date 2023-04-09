@@ -81,7 +81,7 @@ const NavBarMobile = () => {
               <img id='logoHomeMobile' src={logochico} alt='logo'/>
             </Link>
             {
-              window.location.href === `http://localhost:3000/events` ? (
+              window.location.href === `https://social-networking-mo5slyom2-alejoavendanio.vercel.app/events` ? (
                 null ) : (<IconButton>
                             <Searchbar/>
                           </IconButton>)
